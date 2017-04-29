@@ -1,0 +1,36 @@
+wrapper {
+    margin: 0 auto;
+    display:inline-block;
+    width: 100%;
+}
+body {
+    /*background-image:url("http://i.imgur.com/P0ypqbL.jpg"); /* this is not my image*/
+    background-attachment:fixed;
+    background-size : cover;
+    display : inline-block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+footer {
+    color: black;
+}
+li {
+    display:inline-block;
+    
+}
+li a {
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+nav {
+    margin:10px;
+}
+ul {
+    list-style-type: none;
+    background-color: #f1f1f1;
+}

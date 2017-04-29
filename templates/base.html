@@ -3,34 +3,35 @@
 
 <!DOCTYPE html>
 <html>
-    <div id=Wrapper>
+    
         <head>
             <title> Holly H Moore - {% block title %} {% endblock title %}</title>
         </head>
         <body>
-            <div id=left_space></div>
-            <div id=CenterStage>
-                <div id=navigation_row>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="{% url 'homepage:index' %}">Home</a>
-                            </li>
-                            <li>
-                                <a href="{% url 'homepage:portfolio' %}">Porfolio</a>
-                            </li>
-                            <li>
-                                <a href="{% url 'homepage:contact' %}">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
+            <div id=Wrapper align="center">
+                <div id=left_space></div>
+                <div id=CenterStage>
+                    <div id=navigation_row>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="{% url 'homepage:index' %}">Home</a>
+                                </li>
+                                <li>
+                                    <a href="{% url 'homepage:portfolio' %}">Porfolio</a>
+                                </li>
+                                <li>
+                                    <a href="{% url 'homepage:contact' %}">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    {% block content %}
+                    
+                    {% endblock content %}
+                    <footer>Jeremiah Moore made this</footer>
                 </div>
-                {% block content %}
-                
-                {% endblock content %}
-                <footer>Jeremiah Moore made this</footer>
+                <div id = right_space></div>
             </div>
-            <div id = right_space></div>
         </body>
-    </div>
 </html>

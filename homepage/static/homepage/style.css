@@ -1,16 +1,23 @@
-wrapper {
-    margin: 0 auto;
-    display:inline-block;
-    width: 100%;
+#wrapper {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+.post {
+    background-color: #f1f1f1;
+    
+}
+.post-title {
+    text-decoration: none;
 }
 body {
-    /*background-image:url("http://i.imgur.com/P0ypqbL.jpg"); /* this is not my image*/
+    background-image:url("http://i.imgur.com/P0ypqbL.jpg"); /* this is not my image*/
     background-attachment:fixed;
     background-size : cover;
-    display : inline-block;
-    margin: auto;
     text-align: center;
-    width: 100%;
+}
+CenterStage {
+    width: 50%;
 }
 footer {
     color: black;
@@ -27,10 +34,8 @@ li a:hover {
     background-color: #555;
     color: white;
 }
-nav {
-    margin:10px;
-}
 ul {
     list-style-type: none;
     background-color: #f1f1f1;
+    padding: 10px;
 }

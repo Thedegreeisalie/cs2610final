@@ -5,22 +5,19 @@
 }
 .post {
     background-color: #f1f1f1;
-    
 }
 .post-title {
     text-decoration: none;
 }
 body {
-    background-image:url("http://i.imgur.com/P0ypqbL.jpg"); /* this is not my image*/
+    background-image:url("http://i.imgur.com/P0ypqbL.jpg"); /* this is not my image, it was trending on r/earthporn for a while */
     background-attachment:fixed;
     background-size : cover;
     text-align: center;
 }
 CenterStage {
     width: 50%;
-}
-footer {
-    color: black;
+    background-color: #f1f1f1;
 }
 li {
     display:inline-block;
@@ -38,4 +35,12 @@ ul {
     list-style-type: none;
     background-color: #f1f1f1;
     padding: 10px;
+}
+.page_content{
+    background-color: #f1f1f1;
+    padding-bottom: 5px;
+}
+footer{
+    background-color:#f1f1f1;
+    padding:0px;
 }

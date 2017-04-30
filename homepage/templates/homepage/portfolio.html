@@ -1,12 +1,11 @@
 {% extends 'base.html' %}
-{% block title %} Home {% endblock title %}
+{% block title %} Portfolio {% endblock title %}
 
 {% block content %}
 
 {% for post in post %}
         <section class="post">
-                <h3><a class="post-title"
-                    href="{{post.get_absolute_url}}">
+                <h3><a class="post-title" href="{{post.get_absolute_url}}">
                     {{ post.title }}
                 </a></h3>
                 <span class="post-meta">
@@ -17,5 +16,7 @@
                 </p>
         </section>
 {% endfor %}
-<h2>This is portfolio.html</h2>
+<div class=page_content>
+    <h2>Portfolio</h2>
+</div>
 {% endblock content %}
